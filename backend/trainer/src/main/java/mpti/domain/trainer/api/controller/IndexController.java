@@ -3,7 +3,7 @@ package mpti.domain.trainer.api.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/trainer")
 public class IndexController {
     @GetMapping("")
     public String checkDuplicateId() {
